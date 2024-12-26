@@ -25,6 +25,7 @@ postForm.addEventListener("submit", (e) => {
           <ul class="comment-list"></ul>
           <form class="comment-form">
             <input
+              required
               type="text"
               class="comment-input"
               placeholder="Напишіть коментар..."
