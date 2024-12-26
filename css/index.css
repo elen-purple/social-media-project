@@ -158,3 +158,34 @@ body {
   margin: 0;
   font-size: 14px;
 }
+
+/* Секція з кнопками фільтрації */
+.sort {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.sort h2 {
+  margin: 0 0 15px 0;
+  font-size: 18px;
+}
+
+/* Стилі кнопок фільтра */
+.sort-btn {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50; /* Такий самий колір, як і у кнопки "Опублікувати" */
+  color: #fff;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.sort-btn:hover {
+  background: #45a049; /* Трохи темніший відтінок зеленої кнопки */
+}
