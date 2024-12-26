@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f2f2f2;
+}
+
+.header {
+  background: #4caf50;
+  color: #fff;
+  padding: 15px;
+}
+
+.header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.content {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.new-post,
+.posts {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.new-post form {
+  display: flex;
+  flex-direction: column;
+}
+
+#postInput {
+  resize: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-family: monospace;
+}
+
+#postText {
+  resize: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.new-post button {
+  width: 150px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background: #4caf50;
+  color: #fff;
+}
+
+.post {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.author {
+  margin: 0 0 5px 0;
+  overflow-wrap: break-word;
+}
+
+.post-content {
+  margin: 0 0 10px 0;
+  overflow-wrap: break-word;
+}
+
+.post-actions button {
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 14px;
+}
+
+.post-actions .like-btn:hover {
+  color: #4caf50;
+}
+
+.post-actions .comment-btn:hover {
+  color: #2196f3;
+}
+
+.comments {
+  margin-top: 10px;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
+.comment-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+.comment-list li {
+  background: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  overflow-wrap: break-word;
+}
+
+.comment-form {
+  display: flex;
+}
+
+.comment-input {
+  flex: 1;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.comment-form button {
+  margin-left: 5px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 4px;
+  background: #2196f3;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  background: #ddd;
+  padding: 10px;
+  font-size: 14px;
+}
+
+#postMessage {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}

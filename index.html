@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Міні Соцмережа</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Міні Соцмережа</h1>
+    </header>
+    <main class="content">
+      <section class="new-post">
+        <h2>Створити новий пост</h2>
+        <form id="newPostForm">
+          <input
+            required
+            placeholder="Як до вас звертатися?"
+            type="text"
+            name="user-name"
+            id="postInput"
+          />
+          <textarea
+            required
+            id="postText"
+            placeholder="Поділіться думками..."
+          ></textarea>
+          <button type="submit">Опублікувати</button>
+        </form>
+      </section>
+      <section class="posts" id="postsList">
+        <p id="postMessage">Ще немає постів</p>
+        <!-- <article class="post">
+          <h3 class="author">John Doe</h3>
+          <p class="post-content">Це мій перший пост у міні соцмережі!</p>
+          <div class="post-actions">
+            <button class="like-btn">
+              👍 <span class="like-count">0</span>
+            </button>
+            <button class="comment-btn">
+              💬 Коментарі (<span class="comment-count">0</span>)
+            </button>
+          </div>
+          <div class="comments">
+            <ul class="comment-list"></ul>
+            <form class="comment-form">
+              <input
+                type="text"
+                class="comment-input"
+                placeholder="Напишіть коментар..."
+              />
+              <button type="submit">Додати</button>
+            </form>
+          </div>
+        </article> -->
+      </section>
+    </main>
+    <footer class="footer">
+      <p>© 2024 Міні Соцмережа</p>
+    </footer>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
